@@ -1,0 +1,19 @@
+@import "./Variables.scss";
+
+.secondary-projects {
+    width: 100vw;
+    height: 22%;
+    background-color: $arcticGrey;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+
+
+    .project-wave{
+        position:absolute;
+        bottom: 0;
+    }
+}

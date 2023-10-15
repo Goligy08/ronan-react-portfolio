@@ -1,0 +1,62 @@
+.project {
+  width: 90%;
+  height: 500px;
+  margin: 5% 0 0 8%;
+  background-repeat: no-repeat;
+  border-radius: 2vh;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+@media (min-width: 500px) {
+  .project {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 0 0 4%;
+  }
+}
+@media (min-width: 920px) {
+  .project {
+    background-size: cover;
+    background-position: 20% 45%;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 400px;
+    flex-direction: row;
+    margin: 5% 0 0 5%;
+  }
+}
+@media (min-width: 1600px) {
+  .project {
+    width: 50%;
+    height: 500px;
+  }
+}
+.project .project-img {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border-radius: 2vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project .project-button {
+  z-index: 10;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 15%;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 2rem;
+  top: 85%;
+  right: 15%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.project:nth-of-type(even) {
+  margin: 5% 0 0 35%;
+}/*# sourceMappingURL=Project.css.map */

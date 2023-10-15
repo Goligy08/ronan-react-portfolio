@@ -1,0 +1,19 @@
+@import "./Variables.scss";
+@import "./Navbar.scss";
+@import "./Hero.scss";
+@import "./Projects.scss";
+@import "./SecondaryProjects.scss";
+@import "./Footer.scss";
+
+
+
+
+
+.app{
+    width: 100vw;
+    height: 6800px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    
+}

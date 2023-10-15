@@ -1,0 +1,13 @@
+.secondary-projects {
+  width: 100vw;
+  height: 22%;
+  background-color: #f2f4f8;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.secondary-projects .project-wave {
+  position: absolute;
+  bottom: 0;
+}/*# sourceMappingURL=SecondaryProjects.css.map */
